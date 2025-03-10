@@ -1,0 +1,12 @@
+title: "DevOps Dashboard"
+subtitle: "Monitoring Services"
+
+services:
+  - name: "Prometheus 1"
+    url: "http://localhost:9091"
+  - name: "Prometheus 2"
+    url: "http://localhost:9092"
+  - name: "Prometheus 3"
+    url: "http://localhost:9093"
+  - name: "Grafana"
+    url: "http://localhost:3000"

@@ -1,12 +1,19 @@
-title: "DevOps Dashboard"
-subtitle: "Monitoring Services"
+title: "Monitoring Dashboard"
+subtitle: "Homer"
 
 services:
   - name: "Prometheus 1"
+    logo: "prometheus"
     url: "http://localhost:9091"
+
   - name: "Prometheus 2"
+    logo: "prometheus"
     url: "http://localhost:9092"
+
   - name: "Prometheus 3"
+    logo: "prometheus"
     url: "http://localhost:9093"
+
   - name: "Grafana"
+    logo: "/assets/grafana.png"
     url: "http://localhost:3000"

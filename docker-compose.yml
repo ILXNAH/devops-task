@@ -38,8 +38,8 @@ services:
     image: b4bz/homer:latest
     container_name: homer
     volumes:
-      - ./config/homer/config.yml:/www/assets/config.yml
-      - ./homer/assets:/www/assets   # mapování složky assets
+      - ./config/homer:/www/assets
+      - ./homer/assets/custom:/www/custom-icons
     ports:
       - "8080:8080"
 

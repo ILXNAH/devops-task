@@ -69,6 +69,7 @@ docker-compose up -d
 
 - První spuštění stáhne všechny potřebné image a nastaví služby.
 ---
+
 ## 3. Ověření běhu služeb:
 
 ### **Prometheus monitoring:**

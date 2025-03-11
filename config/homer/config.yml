@@ -1,6 +1,7 @@
 title: "Monitoring Dashboard"
 subtitle: "Homer"
 logo: "/custom-icons/homer.png"
+mode: "dark"
 
 services:
   - name: "Prometheus monitoring"

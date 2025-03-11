@@ -55,9 +55,9 @@ docker-compose up -d
 3. Ověření, že vše běží správně:
 
 **Prometheus monitoring:**
-- Prometheus 1
-- Prometheus 2
-- Prometheus 3
+- Prometheus 1 běží na adrese: http://localhost:9091/
+- Prometheus 2 běží na adrese: http://localhost:9092/
+- Prometheus 3 běží na adrese: http://localhost:9093/
 
 Každá instance scrapuje sama sebe na portu 9091.
 

@@ -2,26 +2,35 @@ services:
   prometheus-1:
     image: prom/prometheus:latest
     container_name: prometheus-1
+    command:
+      - '--web.listen-address=:9091'
+      - '--config.file=/etc/prometheus/prometheus.yml'
     volumes:
       - ./config/prometheus-1.yml:/etc/prometheus/prometheus.yml
     ports:
-      - "9091:9090"  # Host:9091 -> Container:9090
+      - "9091:9091"  # Host:9091 -> Container:9091
 
   prometheus-2:
     image: prom/prometheus:latest
     container_name: prometheus-2
+    command:
+      - '--web.listen-address=:9091'
+      - '--config.file=/etc/prometheus/prometheus.yml'
     volumes:
       - ./config/prometheus-2.yml:/etc/prometheus/prometheus.yml
     ports:
-      - "9092:9090"  # Host:9092 -> Container:9090
+      - "9092:9091"  # Host:9092 -> Container:9091
 
   prometheus-3:
     image: prom/prometheus:latest
     container_name: prometheus-3
+    command:
+      - '--web.listen-address=:9091'
+      - '--config.file=/etc/prometheus/prometheus.yml'
     volumes:
       - ./config/prometheus-3.yml:/etc/prometheus/prometheus.yml
     ports:
-      - "9093:9090"  # Host:9093 -> Container:9090
+      - "9093:9091"  # Host:9093 -> Container:9091
 
   grafana:
     image: grafana/grafana:latest
@@ -40,6 +49,7 @@ services:
     volumes:
       - ./config/homer:/www/assets
       - ./homer/assets/custom:/www/custom-icons
+
     ports:
       - "8080:8080"
 

@@ -1,25 +1,28 @@
 title: "Monitoring Dashboard"
 subtitle: "Homer"
+logo: "/custom-icons/homer.png"
 
 services:
-  - name: "Monitoring tools"
+  - name: "Prometheus instances"
     items:
       - name: "Prometheus 1"
         logo: "/custom-icons/prometheus.png"
-        url: "http://localhost:9091"
+        url: "http://localhost:9091/targets"
         target: "_blank"
 
       - name: "Prometheus 2"
         logo: "/custom-icons/prometheus.png"
-        url: "http://localhost:9092"
+        url: "http://localhost:9092/targets"
         target: "_blank"
 
       - name: "Prometheus 3"
         logo: "/custom-icons/prometheus.png"
-        url: "http://localhost:9093"
+        url: "http://localhost:9093/targets"
         target: "_blank"
 
-      - name: "Grafana"
+  - name: "Grafana observability"
+    items:
+      - name: "Prometheus Dashboard"
         logo: "/custom-icons/grafana.png"
-        url: "http://localhost:3000"
+        url: "http://localhost:3000/d/k8s_addons_prometheus/prometheus/"
         target: "_blank"

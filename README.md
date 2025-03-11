@@ -89,7 +89,9 @@ Ukázky aplikací:
 - Grafana Dashboard:
   ![Grafana Dashboard](assets/grafana-dashboard.png)
 
-Poznámka: 
-Všechny konfigurační soubory jsou připraveny a verzovány v repozitáři pro maximální transparentnost a snadnou správu. 
+Poznámka:
+
+Všechny konfigurační soubory jsou připraveny a verzovány v repozitáři pro maximální transparentnost a snadnou správu.
+
 Služby jsou připravené k použití ihned po spuštění bez další ruční konfigurace.
 

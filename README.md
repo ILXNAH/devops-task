@@ -7,7 +7,7 @@ Tento projekt obsahuje kompletní Docker Compose konfiguraci monitorovacího sta
 
 **Obsah repozitáře:**
 ```
-devops-task/
+docker-prometheus-grafana-homer/
 ├── docker-compose.yml
 ├── README.md
 ├── assets/
@@ -41,8 +41,8 @@ devops-task/
 **Jak projekt spustit:**
 1. Naklonujte repozitář:
 ```
-git clone https://github.com/ILXNAH/devops-task.git
-cd devops-task
+git clone https://github.com/ILXNAH/docker-prometheus-grafana-homer.git
+cd docker-prometheus-grafana-homer
 ```
 
 2. Spusťte služby pomocí docker-compose:

@@ -6,28 +6,33 @@ Tento projekt obsahuje kompletní Docker Compose konfiguraci monitorovacího sta
 - Homer jako centrální dashboard.
 
 **Obsah repozitáře:**
+```
 devops-task/
 ├── docker-compose.yml
+├── README.md
+├── assets/
+│   ├── grafana-dashboard.png
+│   ├── homer-dashboard.png
+│   ├── prometheus-query.png
+│   └── prometheus-targets.png
 ├── config/
+│   ├── prometheus-dashboard.json
 │   ├── prometheus-1.yml
 │   ├── prometheus-2.yml
 │   ├── prometheus-3.yml
-│   ├── grafana/
-│   │   ├── provisioning/
-│   │   │   ├── dashboards/
-│   │   │   │   └── dashboards.yml
-│   │   │   └── datasources/
-│   │   │       └── datasources.yml
-│   │   └── dashboards/
-│   │       └── prometheus-dashboard.json
-│   └── homer/
-│       └── config.yml
+│   └── grafana/
+│       ├── dashboards/
+│       │   └── prometheus-dashboard.json
+│       └── provisioning/
+│           └── dashboards/
+│               └── dashboards.yml
 └── homer/
     └── assets/
         └── custom/
             ├── grafana.png
-            ├── prometheus.png
-            └── homer.png
+            ├── homer.png
+            └── prometheus.png
+```
 
 **Požadavky:**
 - Docker

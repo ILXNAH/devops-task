@@ -3,7 +3,7 @@ subtitle: "Homer"
 logo: "/custom-icons/homer.png"
 
 services:
-  - name: "Prometheus instances"
+  - name: "Prometheus monitoring"
     items:
       - name: "Prometheus 1"
         logo: "/custom-icons/prometheus.png"

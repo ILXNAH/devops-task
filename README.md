@@ -6,7 +6,7 @@
 - [Obsah repozitáře](#obsah-repozitáře)
 - [Požadavky](#požadavky)
 - [Jak projekt spustit](#jak-projekt-spustit)
-- [Ověření, že vše běží správně](#overeni-ze-vse-bezi-spravne)
+- [Ověření, že vše běží správně](#ověření-běhu-služeb)
   - [Prometheus](#prometheus-monitoring)
   - [Grafana](#grafana-observability)
   - [Homer dashboard (homepage)](#homer-dashboard-homepage)
@@ -69,7 +69,7 @@ docker-compose up -d
 
 - První spuštění stáhne všechny potřebné image a nastaví služby.
 ---
-## 3. Ověření, že vše běží správně:
+## 3. Ověření běhu služeb:
 
 ### **Prometheus monitoring:**
 - Prometheus 1 běží na adrese: http://localhost:9091/

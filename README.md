@@ -6,7 +6,7 @@
 - [Obsah repozitáře](#obsah-repozitáře)
 - [Požadavky](#požadavky)
 - [Jak projekt spustit](#jak-projekt-spustit)
-- [Ověření, že vše běží správně](#ověření-že-vše-běží-správně)
+- [Ověření, že vše běží správně](#overeni-ze-vse-bezi-spravne)
   - [Prometheus](#prometheus-monitoring)
   - [Grafana](#grafana-observability)
   - [Homer dashboard (homepage)](#homer-dashboard-homepage)

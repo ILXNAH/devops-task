@@ -51,7 +51,7 @@ docker-compose up -d
 ```
 
 - První spuštění stáhne všechny potřebné image a nastaví služby.
-
+---
 3. Ověření, že vše běží správně:
 
 **Prometheus monitoring:**
@@ -70,7 +70,7 @@ Grafana má připravené datasources pro všechny 3 Prometheus instance a jeden 
 **Homer dashboard (homepage):**
 - Homer je dostupný na adrese: http://localhost:8080/ 
 - Dashboard obsahuje odkazy na všechny tři Prometheus instance a Grafanu s přehlednými ikonami.
-
+---
 Ukončení běhu kontejnerů:
 - Pro vypnutí kontejnerů použijte:
 ```

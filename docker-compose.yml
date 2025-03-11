@@ -36,8 +36,8 @@ services:
     image: grafana/grafana:latest
     container_name: grafana
     volumes:
-      - grafana-data:/var/lib/grafana   # toto zajistí persistenci dat
-      - ./config/grafana:/etc/grafana
+      - grafana-data:/var/lib/grafana   # Persistence uživatelských dat
+      - ./config/grafana:/etc/grafana   # provisioning soubory
     ports:
       - "3000:3000"
     environment:

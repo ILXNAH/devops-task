@@ -1,0 +1,18 @@
+apiVersion: 1
+
+datasources:
+  - name: prometheus-1
+    type: prometheus
+    url: http://prometheus-1:9091
+    access: proxy
+    isDefault: false
+
+  - name: prometheus-2
+    type: prometheus
+    url: http://prometheus-2:9091
+    access: proxy
+
+  - name: prometheus-3
+    type: prometheus
+    url: http://prometheus-3:9091
+    access: proxy

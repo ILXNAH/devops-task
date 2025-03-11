@@ -78,7 +78,7 @@ docker-compose down
 ```
 
 Všechna data Grafany jsou persistentní díky použití Docker volume (grafana-data).
-
+---
 Ukázky aplikací:
 - Homer dashboard s odkazy:
   ![Homer dashboard](assets/homer-dashboard.png)

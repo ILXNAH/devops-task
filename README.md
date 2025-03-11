@@ -64,6 +64,7 @@ Každá instance scrapuje sama sebe na portu 9091.
 **Grafana observability**:
 - Grafana běží na adrese: http://localhost:3000/
 - Přihlášení: admin / admin
+
 Grafana má připravené datasources pro všechny 3 Prometheus instance a jeden předdefinovaný dashboard monitorující interní metriky Promethea.
 
 **Homer dashboard (homepage):**

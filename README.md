@@ -58,6 +58,7 @@ docker-compose up -d
 - Prometheus 1
 - Prometheus 2
 - Prometheus 3
+
 Každá instance scrapuje sama sebe na portu 9091.
 
 **Grafana observability**:
